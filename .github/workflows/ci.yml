@@ -36,8 +36,7 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          path: remark-lint-report
           pattern: remark-*
       - name: Display files
-        run: ls -R artifacts/
+        run: ls -R
           
